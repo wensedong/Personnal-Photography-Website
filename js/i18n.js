@@ -24,6 +24,7 @@ const translations = {
     'about.intro1': '一名业余摄影爱好者，喜欢在旅行和日常生活中捕捉打动我的瞬间。摄影对我来说，是记录世界、表达观点的一种方式。',
     'about.intro2': '这个网站是我分享摄影作品和个人观察的地方。每一张照片背后，都有一个值得讲述的故事。',
     'about.gear': '常用器材',
+    'about.gear3': '真我 GT7 Pro（手机摄影）',
 
     'contact.title': '联系方式',
     'contact.desc': '期待与你的交流与合作',
@@ -56,6 +57,7 @@ const translations = {
     'about.intro1': 'An amateur photography enthusiast who loves capturing moments during travels and daily life. For me, photography is a way to record the world and express my perspective.',
     'about.intro2': 'This website is where I share my photography work and personal observations. Behind every photo, there is a story worth telling.',
     'about.gear': 'My Gear',
+    'about.gear3': 'Realme GT7 Pro (Phone Photography)',
 
     'contact.title': 'Contact',
     'contact.desc': 'Looking forward to connecting with you',
