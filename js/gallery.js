@@ -12,7 +12,7 @@
 
 const galleryImages = {
   landscape: [
-    { thumb: 'images/gallery/landscape/_DSC4951.webp', full: 'images/gallery/landscape/_DSC4951.webp', titleZh: '作品 1', titleEn: 'Work 1' },
+    { thumb: 'images/gallery/landscape/three-boats-lake.webp', full: 'images/gallery/landscape/three-boats-lake.webp', titleZh: '湖上三只船', titleEn: 'Three Boats on the Lake' },
   ],
   portrait: [
     { thumb: 'https://picsum.photos/seed/pt1/600/400', full: 'https://picsum.photos/seed/pt1/1920/1280', titleZh: '待替换', titleEn: 'Replace me' },
