@@ -3,37 +3,22 @@
 // ============================================================
 
 // ---------- Gallery Data ----------
-// Replace these placeholder URLs with your own images.
-// thumbnail: small/fast-loading version shown in the grid
-// full: high-resolution version shown in the lightbox
+// 照片格式说明：
+//   thumb  — 画廊缩略图（建议 600px 宽，~80KB）
+//   full   — 灯箱大图（建议 1920px 宽，~400KB）
+//   titleZh / titleEn — 中英文标题
+//
+// 添加新照片：复制一个 { ... } 块，修改文件路径和标题即可
 
 const galleryImages = {
   landscape: [
-    { thumb: 'https://picsum.photos/seed/ls1/600/400', full: 'https://picsum.photos/seed/ls1/1920/1280', titleZh: '山间晨雾', titleEn: 'Morning Mist in Mountains' },
-    { thumb: 'https://picsum.photos/seed/ls2/600/400', full: 'https://picsum.photos/seed/ls2/1920/1280', titleZh: '落日海岸', titleEn: 'Sunset Coast' },
-    { thumb: 'https://picsum.photos/seed/ls3/600/400', full: 'https://picsum.photos/seed/ls3/1920/1280', titleZh: '秋日森林', titleEn: 'Autumn Forest' },
-    { thumb: 'https://picsum.photos/seed/ls4/600/400', full: 'https://picsum.photos/seed/ls4/1920/1280', titleZh: '星空之下', titleEn: 'Under the Stars' },
-    { thumb: 'https://picsum.photos/seed/ls5/600/400', full: 'https://picsum.photos/seed/ls5/1920/1280', titleZh: '云海翻涌', titleEn: 'Sea of Clouds' },
-    { thumb: 'https://picsum.photos/seed/ls6/600/400', full: 'https://picsum.photos/seed/ls6/1920/1280', titleZh: '沙漠之舟', titleEn: 'Desert Ship' },
-    { thumb: 'https://picsum.photos/seed/ls7/600/900', full: 'https://picsum.photos/seed/ls7/1280/1920', titleZh: '雪域高原', titleEn: 'Snow Plateau' },
-    { thumb: 'https://picsum.photos/seed/ls8/600/400', full: 'https://picsum.photos/seed/ls8/1920/1280', titleZh: '湖光山色', titleEn: 'Lake & Mountain' },
+    { thumb: 'images/gallery/landscape/_DSC4951.webp', full: 'images/gallery/landscape/_DSC4951.webp', titleZh: '作品 1', titleEn: 'Work 1' },
   ],
   portrait: [
-    { thumb: 'https://picsum.photos/seed/pt1/600/400', full: 'https://picsum.photos/seed/pt1/1920/1280', titleZh: '回眸一笑', titleEn: 'A Glance Back' },
-    { thumb: 'https://picsum.photos/seed/pt2/600/400', full: 'https://picsum.photos/seed/pt2/1920/1280', titleZh: '午后光影', titleEn: 'Afternoon Light' },
-    { thumb: 'https://picsum.photos/seed/pt3/600/400', full: 'https://picsum.photos/seed/pt3/1920/1280', titleZh: '城市剪影', titleEn: 'City Silhouette' },
-    { thumb: 'https://picsum.photos/seed/pt4/600/900', full: 'https://picsum.photos/seed/pt4/1280/1920', titleZh: '静谧时分', titleEn: 'Quiet Moments' },
-    { thumb: 'https://picsum.photos/seed/pt5/600/400', full: 'https://picsum.photos/seed/pt5/1920/1280', titleZh: '青春飞扬', titleEn: 'Youthful Spirit' },
-    { thumb: 'https://picsum.photos/seed/pt6/600/400', full: 'https://picsum.photos/seed/pt6/1920/1280', titleZh: '温暖笑容', titleEn: 'Warm Smile' },
+    { thumb: 'https://picsum.photos/seed/pt1/600/400', full: 'https://picsum.photos/seed/pt1/1920/1280', titleZh: '待替换', titleEn: 'Replace me' },
   ],
   street: [
-    { thumb: 'https://picsum.photos/seed/st1/600/400', full: 'https://picsum.photos/seed/st1/1920/1280', titleZh: '雨夜霓虹', titleEn: 'Rainy Night Neon' },
-    { thumb: 'https://picsum.photos/seed/st2/600/400', full: 'https://picsum.photos/seed/st2/1920/1280', titleZh: '匆匆行人', titleEn: 'Hurrying Passersby' },
-    { thumb: 'https://picsum.photos/seed/st3/600/400', full: 'https://picsum.photos/seed/st3/1920/1280', titleZh: '老街故事', titleEn: 'Old Street Story' },
-    { thumb: 'https://picsum.photos/seed/st4/600/400', full: 'https://picsum.photos/seed/st4/1920/1280', titleZh: '光影交错', titleEn: 'Light & Shadow' },
-    { thumb: 'https://picsum.photos/seed/st5/600/400', full: 'https://picsum.photos/seed/st5/1920/1280', titleZh: '市井烟火', titleEn: 'Market Life' },
-    { thumb: 'https://picsum.photos/seed/st6/600/900', full: 'https://picsum.photos/seed/st6/1280/1920', titleZh: '城市脉搏', titleEn: 'City Pulse' },
-    { thumb: 'https://picsum.photos/seed/st7/600/400', full: 'https://picsum.photos/seed/st7/1920/1280', titleZh: '巷弄深处', titleEn: 'Deep in the Alley' },
+    { thumb: 'https://picsum.photos/seed/st1/600/400', full: 'https://picsum.photos/seed/st1/1920/1280', titleZh: '待替换', titleEn: 'Replace me' },
   ],
 };
 
