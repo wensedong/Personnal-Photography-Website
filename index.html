@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="个人摄影作品展示 - Photography Portfolio">
+  <meta name="keywords" content="摄影,作品集,风光,人像,街拍,photography,portfolio">
+  <title>My Photography</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" data-i18n="nav.logo">My Photography</a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" data-i18n="nav.home" class="nav-link">首页</a></li>
+        <li><a href="#gallery" data-i18n="nav.gallery" class="nav-link">作品</a></li>
+        <li><a href="#about" data-i18n="nav.about" class="nav-link">关于</a></li>
+        <li><a href="#contact" data-i18n="nav.contact" class="nav-link">联系</a></li>
+        <li><button id="langToggle" class="lang-btn" aria-label="Switch language">EN</button></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== Hero Section ===== -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-name">Alex Chen</h1>
+      <p class="hero-tagline" data-i18n="hero.tagline">用镜头捕捉光影瞬间</p>
+      <p class="hero-subtitle" data-i18n="hero.subtitle">风光 · 人像 · 街头摄影</p>
+    </div>
+    <a href="#gallery" class="scroll-indicator" aria-label="Scroll down">
+      <span class="scroll-arrow"></span>
+    </a>
+  </section>
+
+  <!-- ===== Gallery Section ===== -->
+  <section id="gallery" class="gallery-section">
+    <div class="container">
+      <h2 class="section-title" data-i18n="gallery.title">作品集</h2>
+      <p class="section-desc" data-i18n="gallery.desc">每一张照片，都是一个故事</p>
+
+      <!-- Category Tabs -->
+      <div class="gallery-tabs">
+        <button class="gallery-tab active" data-category="landscape">
+          <span data-i18n="gallery.landscape">风光</span>
+        </button>
+        <button class="gallery-tab" data-category="portrait">
+          <span data-i18n="gallery.portrait">人像</span>
+        </button>
+        <button class="gallery-tab" data-category="street">
+          <span data-i18n="gallery.street">街拍</span>
+        </button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===== About Section ===== -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2 class="section-title" data-i18n="about.title">关于我</h2>
+      <div class="about-content">
+        <div class="about-image">
+          <div class="avatar-placeholder">
+            <svg viewBox="0 0 120 120" fill="none"><circle cx="60" cy="45" r="20" stroke="currentColor" stroke-width="2"/><ellipse cx="60" cy="95" rx="35" ry="20" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+        </div>
+        <div class="about-text">
+          <h3 data-i18n="about.name">你好，我是 Alex</h3>
+          <p data-i18n="about.intro1">
+            一名热爱摄影的自由摄影师，专注于风光、人像和街头摄影。
+            对我来说，摄影不仅仅是按下快门，更是一种观察世界的方式。
+          </p>
+          <p data-i18n="about.intro2">
+            从 2018 年开始拿起相机，我走过了许多城市和山野，用镜头记录下每一个打动我的瞬间。
+            我相信，最好的照片不是最完美的构图，而是最能传递情感的那一张。
+          </p>
+          <div class="about-gear">
+            <h4 data-i18n="about.gear">常用器材</h4>
+            <ul>
+              <li>Sony A7M4 + FE 24-70mm f/2.8 GM II</li>
+              <li>Sony FE 85mm f/1.4 GM</li>
+              <li>DJI Mavic 3 (航拍)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title" data-i18n="contact.title">联系方式</h2>
+      <p class="section-desc" data-i18n="contact.desc">期待与你的交流与合作</p>
+      <div class="social-links">
+        <a href="#" class="social-link" aria-label="Instagram" title="Instagram">
+          <!-- Instagram icon -->
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/>
+          </svg>
+        </a>
+        <a href="#" class="social-link" aria-label="Weibo" title="微博">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><circle cx="8.5" cy="11" r="1.5"/><circle cx="13" cy="9.5" r="1"/><circle cx="10.5" cy="14" r="1.5"/><circle cx="14" cy="13.5" r="1"/>
+          </svg>
+        </a>
+        <a href="#" class="social-link" aria-label="500px" title="500px">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 7h10M7 12h10M7 17h6"/>
+          </svg>
+        </a>
+        <a href="mailto:alex@example.com" class="social-link" aria-label="Email" title="Email">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6l10 7 10-7"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <p data-i18n="footer.copyright">&copy; 2024 Alex Chen. All rights reserved.</p>
+  </footer>
+
+  <!-- ===== Lightbox ===== -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous">&lsaquo;</button>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Next">&rsaquo;</button>
+    <div class="lightbox-counter" id="lightboxCounter">1 / 8</div>
+    <img src="" alt="" class="lightbox-image" id="lightboxImage">
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
