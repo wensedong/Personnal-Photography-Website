@@ -13,6 +13,8 @@
 const galleryImages = {
   landscape: [
     { thumb: 'images/gallery/landscape/three-boats-lake.webp', full: 'images/gallery/landscape/three-boats-lake.webp', titleZh: '雁栖湖', titleEn: 'Yan Qi Lake' },
+    { thumb: 'images/gallery/landscape/Green-Fence.webp', full: 'images/gallery/landscape/Green-Fence.webp', titleZh: '绿篱', titleEn: 'Green Fence' },
+    { thumb: 'images/gallery/landscape/Trees in the Lake.webp', full: 'images/gallery/landscape/Trees in the Lake.webp', titleZh: '湖心树影', titleEn: 'Trees in the Lake' },
   ],
   portrait: [
     { thumb: 'https://picsum.photos/seed/pt1/600/400', full: 'https://picsum.photos/seed/pt1/1920/1280', titleZh: '待替换', titleEn: 'Replace me' },
