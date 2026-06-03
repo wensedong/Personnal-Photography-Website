@@ -4,13 +4,13 @@
 
 const translations = {
   zh: {
-    'nav.logo': 'My Photography',
+    'nav.logo': 'Wense Dong',
     'nav.home': '首页',
     'nav.gallery': '作品',
     'nav.about': '关于',
     'nav.contact': '联系',
 
-    'hero.tagline': '用镜头捕捉光影瞬间',
+    'hero.tagline': '业余摄影爱好者，捕捉瞬间，分享我的所见所思',
     'hero.subtitle': '风光 · 人像 · 街头摄影',
 
     'gallery.title': '作品集',
@@ -20,15 +20,15 @@ const translations = {
     'gallery.street': '街拍',
 
     'about.title': '关于我',
-    'about.name': '你好，我是 Alex',
-    'about.intro1': '一名热爱摄影的自由摄影师，专注于风光、人像和街头摄影。对我来说，摄影不仅仅是按下快门，更是一种观察世界的方式。',
-    'about.intro2': '从 2018 年开始拿起相机，我走过了许多城市和山野，用镜头记录下每一个打动我的瞬间。我相信，最好的照片不是最完美的构图，而是最能传递情感的那一张。',
+    'about.name': '你好，我是 Wense',
+    'about.intro1': '一名业余摄影爱好者，喜欢在旅行和日常生活中捕捉打动我的瞬间。摄影对我来说，是记录世界、表达观点的一种方式。',
+    'about.intro2': '这个网站是我分享摄影作品和个人观察的地方。每一张照片背后，都有一个值得讲述的故事。',
     'about.gear': '常用器材',
 
     'contact.title': '联系方式',
     'contact.desc': '期待与你的交流与合作',
 
-    'footer.copyright': '© 2024 Alex Chen. All rights reserved.',
+    'footer.copyright': '© 2024 Wense Dong. All rights reserved.',
 
     'lightbox.close': '关闭',
     'lightbox.prev': '上一张',
@@ -36,13 +36,13 @@ const translations = {
   },
 
   en: {
-    'nav.logo': 'My Photography',
+    'nav.logo': 'Wense Dong',
     'nav.home': 'Home',
     'nav.gallery': 'Gallery',
     'nav.about': 'About',
     'nav.contact': 'Contact',
 
-    'hero.tagline': 'Capturing Light & Moments',
+    'hero.tagline': 'Amateur photography enthusiast. Capturing moments and sharing my insights and observations.',
     'hero.subtitle': 'Landscape · Portrait · Street',
 
     'gallery.title': 'Gallery',
@@ -52,15 +52,15 @@ const translations = {
     'gallery.street': 'Street',
 
     'about.title': 'About Me',
-    'about.name': 'Hi, I\'m Alex',
-    'about.intro1': 'A passionate freelance photographer focusing on landscape, portrait, and street photography. For me, photography is not just pressing the shutter — it\'s a way of seeing the world.',
-    'about.intro2': 'I picked up my first camera in 2018 and have since traveled through many cities and landscapes, capturing every moment that moves me. I believe the best photo is not the one with perfect composition, but the one that conveys the deepest emotion.',
+    'about.name': 'Hi, I\'m Wense',
+    'about.intro1': 'An amateur photography enthusiast who loves capturing moments during travels and daily life. For me, photography is a way to record the world and express my perspective.',
+    'about.intro2': 'This website is where I share my photography work and personal observations. Behind every photo, there is a story worth telling.',
     'about.gear': 'My Gear',
 
     'contact.title': 'Contact',
     'contact.desc': 'Looking forward to connecting with you',
 
-    'footer.copyright': '© 2024 Alex Chen. All rights reserved.',
+    'footer.copyright': '© 2024 Wense Dong. All rights reserved.',
 
     'lightbox.close': 'Close',
     'lightbox.prev': 'Previous',
