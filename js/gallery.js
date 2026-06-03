@@ -1,7 +1,7 @@
 // ============================================================
 // gallery.js — 画廊数据、渲染与 Lightbox 灯箱
 // 此文件由 scan-photos.py 自动生成，请勿手动编辑
-// 生成时间：2026-06-03 19:04:17
+// 生成时间：2026-06-03 19:25:56
 // ============================================================
 
 // 修改标题：编辑本文件中的 titleZh / titleEn 字段即可
@@ -10,6 +10,18 @@
 // ---------- Gallery Data ----------
 const galleryImages = {
   landscape: [
+    {
+      thumb: 'images/gallery/landscape/_DSC4580.webp',
+      full:  'images/gallery/landscape/_DSC4580.webp',
+      titleZh: 'Dsc4580',
+      titleEn: ' Dsc4580',
+    },
+    {
+      thumb: 'images/gallery/landscape/_DSC5146.webp',
+      full:  'images/gallery/landscape/_DSC5146.webp',
+      titleZh: 'Dsc5146',
+      titleEn: ' Dsc5146',
+    },
     {
       thumb: 'images/gallery/landscape/green-fence.webp',
       full:  'images/gallery/landscape/green-fence.webp',

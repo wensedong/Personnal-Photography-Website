@@ -1,5 +1,22 @@
 {
-  "three-boats-lake.webp":  {"zh": "雁栖湖",     "en": "Yanqi Lake"},
-  "green-fence.webp":       {"zh": "绿篱",       "en": "Green Fence"},
-  "trees-in-the-lake.webp": {"zh": "湖心树影",   "en": "Trees in the Lake"}
+  "three-boats-lake.webp": {
+    "zh": "雁栖湖",
+    "en": "Yanqi Lake"
+  },
+  "green-fence.webp": {
+    "zh": "绿篱",
+    "en": "Green Fence"
+  },
+  "trees-in-the-lake.webp": {
+    "zh": "湖心树影",
+    "en": "Trees in the Lake"
+  },
+  "_DSC4580.webp": {
+    "zh": "[待填写]",
+    "en": " Dsc4580"
+  },
+  "_DSC5146.webp": {
+    "zh": "[待填写]",
+    "en": " Dsc5146"
+  }
 }
